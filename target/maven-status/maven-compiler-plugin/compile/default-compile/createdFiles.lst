@@ -1,0 +1,10 @@
+com\psic\Main.class
+com\psic\Patient.class
+com\psic\Physiotherapist.class
+com\psic\ConsultancyAppointment.class
+com\psic\exceptions\TreatmentBookedException.class
+com\psic\Status.class
+com\psic\Member.class
+com\psic\BookingService.class
+com\psic\exceptions\BookingException.class
+com\psic\Treatment.class

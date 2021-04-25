@@ -1,0 +1,17 @@
+
+V	java:S106"9Replace this use of System.out or System.err by a logger.(éü’Š8î–—éŠ/
+[	java:S106»"9Replace this use of System.out or System.err by a logger.(Ø³À¬üÿÿÿÿ8ÿ„¢éŠ/
+[	java:S106–"9Replace this use of System.out or System.err by a logger.(Ø³À¬üÿÿÿÿ8¦ü™éŠ/
+W
+java:S1854~"5Remove this useless assignment to local variable "t".(•ĞÊøÿÿÿÿ8ÈşíèŠ/
+[	java:S106ª"9Replace this use of System.out or System.err by a logger.(¢˜Ì±úÿÿÿÿ8ïáéŠ/
+j
+java:S3824,"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(ä——úÿÿÿÿ8ËàéŠ/
+[	java:S106¡"9Replace this use of System.out or System.err by a logger.(Ø³À¬üÿÿÿÿ8İŠ›éŠ/
+V	java:S106´"9Replace this use of System.out or System.err by a logger.(éü’Š8ÿ„¢éŠ/
+[	java:S106·"9Replace this use of System.out or System.err by a logger.(¸…³Õúÿÿÿÿ8ËàéŠ/
+H
+java:S1481{"&Remove this unused "t" local variable.(€ªãªüÿÿÿÿ8ÈşíèŠ/
+[	java:S106‹"9Replace this use of System.out or System.err by a logger.(À°ì˜øÿÿÿÿ8ÈşíèŠ/
+[	java:S106®"9Replace this use of System.out or System.err by a logger.(À°ì˜øÿÿÿÿ8¤ÓéŠ/
+V	java:S106§"9Replace this use of System.out or System.err by a logger.(×¸È8àÿéŠ/

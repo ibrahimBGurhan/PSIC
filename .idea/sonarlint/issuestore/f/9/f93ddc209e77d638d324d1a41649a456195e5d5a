@@ -1,0 +1,73 @@
+
+V	java:S106Ê"9Replace this use of System.out or System.err by a logger.(¡È¿É8±ÍŒéŠ/
+e
+java:S2095Ù"GUse try-with-resources or close this "CSVReader" in a "finally" clause.(Ûª™¶8±ÍŒéŠ/
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(Ö¯ÊÆ8»°¹èŠ/
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(èòšÆûÿÿÿÿ8†ÀéÕŠ/
+{	java:S135ª"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8±ÍŒéŠ/
+j
+java:S2095ì"GUse try-with-resources or close this "CSVReader" in a "finally" clause.(æÒğÛûÿÿÿÿ8±ÍŒéŠ/
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(ìÏİ8±ÍŒéŠ/
+U	java:S106e"9Replace this use of System.out or System.err by a logger.(èå‰ß8±ÍŒéŠ/
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(äÉ›µüÿÿÿÿ8òš«ÖŠ/
+U	java:S106t"9Replace this use of System.out or System.err by a logger.(˜âˆŠ8¤ÏÍèŠ/
+[	java:S106±"9Replace this use of System.out or System.err by a logger.(Óí÷ûÿÿÿÿ8±ÍŒéŠ/
+[	java:S106œ"9Replace this use of System.out or System.err by a logger.(°è°¹øÿÿÿÿ8±ÍŒéŠ/
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(£ª§”8»°¹èŠ/
+W
+java:S11177":Rename "choice" which hides the field declared at line 19.(ÙƒóÓ8»°¹èŠ/
+j
+java:S2095Î"GUse try-with-resources or close this "CSVReader" in a "finally" clause.(„ıÒòúÿÿÿÿ8±ÍŒéŠ/
+V	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ«ò¹8±ÍŒéŠ/
+V	java:S106©"9Replace this use of System.out or System.err by a logger.(âÅ—œ8±ÍŒéŠ/
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(üĞûÛ8Ö¾¢ÙŠ/
+U	java:S106_"9Replace this use of System.out or System.err by a logger.(û•ËÌ8±ÍŒéŠ/
+z	java:S135s"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8±ÍŒéŠ/
+…
+java:S1192w"hDefine a constant instead of duplicating this literal "Patient doesn't exist, please try again" 3 times.(Ñ«ò¹8±ÍŒéŠ/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(Íó¯êûÿÿÿÿ8Ö¾¢ÙŠ/
+[	java:S106•"9Replace this use of System.out or System.err by a logger.(óÈê§øÿÿÿÿ8¤ÏÍèŠ/
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(ôâŒ’ÿÿÿÿÿ8±ÍŒéŠ/
+Z	java:S106|"9Replace this use of System.out or System.err by a logger.(óÈê§øÿÿÿÿ8¤ÏÍèŠ/
+V	java:S106Æ"9Replace this use of System.out or System.err by a logger.(Ã–•ı8±ÍŒéŠ/
+T	java:S106."9Replace this use of System.out or System.err by a logger.(ÉõÅ8ÜÙêÕŠ/
+[	java:S106Š"9Replace this use of System.out or System.err by a logger.(¸€ƒùúÿÿÿÿ8¤ÏÍèŠ/
+V	java:S106Ä"9Replace this use of System.out or System.err by a logger.(›­Ë‹8±ÍŒéŠ/
+U	java:S106w"9Replace this use of System.out or System.err by a logger.(Ñ«ò¹8±ÍŒéŠ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(£ğ«ıÿÿÿÿ8±ÍŒéŠ/
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(ú½Œªüÿÿÿÿ8±ÍŒéŠ/
+[	java:S106š"9Replace this use of System.out or System.err by a logger.(ŠÒ÷¸ûÿÿÿÿ8±ÍŒéŠ/
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(Îş×”ıÿÿÿÿ8»°¹èŠ/
+[	java:S106Â"9Replace this use of System.out or System.err by a logger.(œ®şÿÿÿÿ8±ÍŒéŠ/
+T	java:S106,"9Replace this use of System.out or System.err by a logger.(ìı l8ÁöçÕŠ/
+[	java:S106¢"9Replace this use of System.out or System.err by a logger.(¢ÓĞ¡üÿÿÿÿ8±ÍŒéŠ/
+Z	java:S106m"9Replace this use of System.out or System.err by a logger.(ÄÌıáùÿÿÿÿ8±ÍŒéŠ/
+}
+java:S2259ö"_"NullPointerException" will be thrown when invoking method "updatePhysioConsultancyAvailMap()".(ŒñÏù8±ÍŒéŠ/
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(¹ü”Áüÿÿÿÿ8Ö¾¢ÙŠ/
+V	java:S106Á"9Replace this use of System.out or System.err by a logger.(Ã¥ÜÊ8¤ÏÍèŠ/
+[	java:S106‹"9Replace this use of System.out or System.err by a logger.(ëãÚÏøÿÿÿÿ8±ÍŒéŠ/
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(ıà»»8òš«ÖŠ/
+V	java:S106«"9Replace this use of System.out or System.err by a logger.(˜âˆŠ8¤ÏÍèŠ/
+V	java:S106®"9Replace this use of System.out or System.err by a logger.(Ñ«ò¹8¤ÏÍèŠ/
+z	java:S135`"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8±ÍŒéŠ/
+8
+java:S36265"Remove this redundant jump.(ÉŠ©ƒ8»°¹èŠ/
+[	java:S106˜"9Replace this use of System.out or System.err by a logger.(£ğ«ıÿÿÿÿ8±ÍŒéŠ/
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(ŞÛ‡½8­¨°ÖŠ/
+{	java:S135Œ"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8±ÍŒéŠ/
+V	java:S106³"9Replace this use of System.out or System.err by a logger.(–©Ê”8±ÍŒéŠ/
+G
+java:S1068"*Remove this unused "choice" private field.(ÇÔò8»°¹èŠ/
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(Îş×”ıÿÿÿÿ8»°¹èŠ/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÒ÷¸ûÿÿÿÿ8±ÍŒéŠ/
+[	java:S106 "9Replace this use of System.out or System.err by a logger.(Ù»íÊøÿÿÿÿ8±ÍŒéŠ/
+U	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(®“€I8±ÍŒéŠ/
+V	java:S106»"9Replace this use of System.out or System.err by a logger.(èÃ¤Û8±ÍŒéŠ/
+p
+java:S1192t"SDefine a constant instead of duplicating this literal "Enter patient's id" 3 times.(˜âˆŠ8¤ÏÍèŠ/
+€
+java:S2259å"]"NullPointerException" will be thrown when invoking method "updatePhysioTreatmentAvailMap()".(ßà£³üÿÿÿÿ8±ÍŒéŠ/
+V	java:S106"9Replace this use of System.out or System.err by a logger.(˜âˆŠ8¤ÏÍèŠ/
+[	java:S106·"9Replace this use of System.out or System.err by a logger.(‹ùôÄıÿÿÿÿ8±ÍŒéŠ/
+z	java:S135'"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8»°¹èŠ/
