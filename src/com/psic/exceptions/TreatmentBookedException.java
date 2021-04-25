@@ -1,4 +1,4 @@
-package exceptions;
+package com.psic.exceptions;
 
 public class TreatmentBookedException extends Exception {
 
