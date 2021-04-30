@@ -5,8 +5,8 @@ import com.opencsv.exceptions.CsvException;
 import com.psic.exceptions.BookingException;
 import com.psic.exceptions.TreatmentBookedException;
 
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
@@ -191,7 +191,7 @@ public class Main {
             bookingService.displayAvailableTreatments();
             System.out.println("Enter treatment id");
             String treatmentId = scanner.nextLine();
-            Treatment treatment = bookingService.getTreatement(treatmentId);
+            Treatment treatment = bookingService.getTreatment(treatmentId);
             if (treatment == null) {
                 System.out.println("Invalid treatment id, please try again");
                 continue;
@@ -231,7 +231,16 @@ public class Main {
     }
 
     private void loadDataFromCSV() throws IOException, CsvException {
-        CSVReader csvReader = new CSVReader(new FileReader("members.csv"));
+        InputStream inMember = getClass().getResourceAsStream("/members.csv");
+        InputStreamReader readerMember = new InputStreamReader(inMember, StandardCharsets.UTF_8);
+
+        InputStream inAvailability = getClass().getResourceAsStream("/availability.csv");
+        InputStreamReader readerAvailability = new InputStreamReader(inAvailability, StandardCharsets.UTF_8);
+
+        InputStream inPhysio = getClass().getResourceAsStream("/physio_consultancy_availability.csv");
+        InputStreamReader readerPhysio = new InputStreamReader(inPhysio, StandardCharsets.UTF_8);
+
+        CSVReader csvReader = new CSVReader(readerMember);
         List<String[]> records = csvReader.readAll();
         for (String[] record : records) {
             if (record[0].startsWith("PHYSICIAN")) {
@@ -242,7 +251,8 @@ public class Main {
                 patientsMap.put(patient.getId(), patient);
             }
         }
-        csvReader = new CSVReader(new FileReader("availability.csv"));
+
+        csvReader = new CSVReader(readerAvailability);
         List<String[]> availabilityRecords = csvReader.readAll();
         Physiotherapist physiotherapist = null;
         for (String[] record : availabilityRecords) {
@@ -257,11 +267,11 @@ public class Main {
                 updatePhysioTreatmentAvailMap(physiotherapist, treatment);
             }
         }
-        readPhysioConsultanceyAvailabilityCSV("physio_consultancy_availability.csv");
+        readPhysioConsultancyAvailabilityCSV(readerPhysio);
     }
 
-    private void readPhysioConsultanceyAvailabilityCSV(String file) throws IOException, CsvException {
-        CSVReader csvReader = new CSVReader(new FileReader(file));
+    private void readPhysioConsultancyAvailabilityCSV(InputStreamReader file) throws IOException, CsvException {
+        CSVReader csvReader = new CSVReader(file);
         List<String[]> availabilityRecords = csvReader.readAll();
         Physiotherapist physiotherapist = null;
         for (String[] record : availabilityRecords) {
@@ -293,7 +303,5 @@ public class Main {
     public BookingService getBookingService() {
         return bookingService;
     }
-
-
 
 }

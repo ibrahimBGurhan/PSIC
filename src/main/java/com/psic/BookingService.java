@@ -79,7 +79,7 @@ public class BookingService {
         return false;
     }
 
-    public Treatment getTreatement(String treatmentId) {
+    public Treatment getTreatment(String treatmentId) {
         Collection<List<Treatment>> allTreatments = physioTreatmentAvailMap.values();
         for (List<Treatment> treatments : allTreatments) {
             for (Treatment treatment : treatments) {
